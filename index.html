@@ -16,8 +16,37 @@
             </div>
         </div>
     </app-root>
-    <script src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.7/client.min.js"></script>
-    <script src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.7/qrcode-modal.min.js"></script>
-<script src="runtime.74b2a828bfb5aee8.js" type="module"></script><script src="polyfills.e7fb06fe1743a6c9.js" type="module"></script><script src="main.1a964394443239d0.js" type="module"></script>
+   <!-- Biblioteca Web3Modal -->
+<script src="https://unpkg.com/@web3modal/ethereum@1.10.0/dist/web3modal.min.js"></script>
+
+<!-- Biblioteca para interactuar con Ethereum -->
+<script src="https://unpkg.com/ethers@5.5.3/dist/ethers.min.js"></script>
+
+<!-- Biblioteca de Ethereum Provider para Web3Modal -->
+<script src="https://unpkg.com/@web3modal/html@1.10.0/dist/provider.min.js"></script>
+
+<script type="module">
+    import {
+      EthereumClient,
+      w3mConnectors,
+      w3mProvider,
+      WagmiCore,
+      WagmiCoreChains,
+      WagmiCoreConnectors
+    } from 'https://unpkg.com/@web3modal/ethereum'
+  
+    import { Web3Modal } from 'https://unpkg.com/@web3modal/html'
+  
+    // Equivalent to importing from @wagmi/core
+    const { configureChains, createConfig } = WagmiCore
+  
+    // Equivalent to importing from @wagmi/core/chains
+    const { mainnet, polygon, avalanche, arbitrum } = WagmiCoreChains
+  
+    // Equivalent to importing from @wagmi/core/providers
+    const { CoinbaseWalletConnector } = WagmiCoreConnectors
+  </script>
+
+<script src="runtime.39533df2f714ff17.js" type="module"></script><script src="polyfills.e7fb06fe1743a6c9.js" type="module"></script><script src="main.e3d86f7020752796.js" type="module"></script>
 
 </body></html>
