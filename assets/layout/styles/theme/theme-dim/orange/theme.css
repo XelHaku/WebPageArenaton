@@ -1158,7 +1158,9 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
   padding: 0.75rem 0.75rem;
   border: 1px solid #0b213f;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 6px;
 }
 .p-inputtext:enabled:hover {
@@ -4661,7 +4663,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-contextmenu .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -4805,7 +4809,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 6px;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -4856,7 +4862,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-megamenu .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -4960,7 +4968,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-menu .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -5039,7 +5049,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-menubar .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -5073,7 +5085,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 6px;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -5208,7 +5222,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     color: rgba(255, 255, 255, 0.87);
     border-radius: 0;
     transition: box-shadow 0.2s;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
   }
   .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
     color: rgba(255, 255, 255, 0.87);
@@ -5341,7 +5357,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -5406,7 +5424,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-slidemenu .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -5609,7 +5629,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
   color: rgba(255, 255, 255, 0.87);
   border-radius: 0;
   transition: box-shadow 0.2s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .p-tieredmenu .p-menuitem-link .p-menuitem-text {
   color: rgba(255, 255, 255, 0.87);
@@ -6296,4 +6318,4 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 .p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-bottom > td {
   box-shadow: inset 0 -2px 0 0 #fcd34d;
-}
+}/*# sourceMappingURL=theme.css.map */

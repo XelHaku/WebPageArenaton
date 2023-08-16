@@ -1,10 +1,10 @@
 $colors: (
-    "blue": #3B82F6,
+    "blue": #0059e9,
     "green": #22C55E,
     "yellow": #EAB308,
     "cyan": #06B6D4,
     "pink": #EC4899,
-    "indigo": #6366F1,
+    "indigo": #0004f0,
     "teal": #14B8A6,
     "orange": #F97316,
     "bluegray": #64748B,
@@ -150,7 +150,7 @@ $secondaryButtonTextActiveColor:$secondaryButtonTextColor !default;
 $secondaryButtonActiveBorderColor:scale-color($secondaryButtonBg, $lightness: -20%) !default;
 $secondaryButtonFocusShadow:0 0 0 1px scale-color($secondaryButtonBg, $lightness: 30%) !default;
 
-$infoButtonBg:#93C5FD !default;
+$infoButtonBg:#0073f7 !default;
 $infoButtonTextColor:#1c2127 !default;
 $infoButtonBorder:1px solid $infoButtonBg !default;
 $infoButtonHoverBg:scale-color($infoButtonBg, $lightness: -10%) !default;
