@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Arenaton</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@nytimesbits">
+  <meta name="twitter:creator" content="@nickbilton">
+  <meta property="og:title" content="Arenaton">
+  <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling.">
+  <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg">
+  <meta property="og:url" content="http://arenaton.com/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>.layout-preloader-container{display:flex;align-items:center;justify-content:center;height:100vh;width:100vw;background-color:#111417}.layout-preloader-container .layout-preloader{position:relative;width:75px;height:75px;background:transparent;border:3px solid #161a1f;border-radius:50%;text-align:center;line-height:150px;font-family:sans-serif;font-size:20px;color:#6366F1;letter-spacing:4px;text-transform:uppercase;text-shadow:0 0 10px #6366F1;box-shadow:0 0 20px rgba(0, 0, 0, 0.5)}.layout-preloader-container .layout-preloader:before{content:"";position:absolute;top:-3px;left:-3px;width:100%;height:100%;border:3px solid transparent;border-top:3px solid #6366F1;border-right:3px solid #6366F1;border-radius:50%;animation:preloader-rotate-c 1s linear infinite}.layout-preloader-container .layout-preloader span{display:block;position:absolute;top:calc(50% - 2px);left:50%;width:50%;height:4px;background:transparent;transform-origin:left;animation:preloader-rotate 1s linear infinite}.layout-preloader-container .layout-preloader span:before{content:"";position:absolute;width:16px;height:16px;border-radius:50%;background:#6366F1;top:-6px;right:-8px;box-shadow:0 0 20px #6366F1}@keyframes preloader-rotate-c{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes preloader-rotate{0%{transform:rotate(45deg)}100%{transform:rotate(405deg)}}</style><link rel="stylesheet" type="text/css" href="assets/layout/styles/layout/preloading.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/layout/styles/layout/preloading.css"></noscript>
+  <!-- <link id="theme-link" rel="stylesheet" type="text/css" href="assets/layout/styles/theme/theme-dark/indigo/theme.css"> -->
+  <!-- <link id="theme-link" rel="stylesheet" type="text/css" href="assets/layout/styles/theme/theme_viva.css" /> -->
+  <style>:root{--surface-a:#000000;--surface-b:#000000;--surface-c:#263238;--surface-d:#241f31;--surface-e:#000000;--surface-f:#000000;--text-color:#e6e6e6;--text-color-secondary:#77767b;--primary-color:#3f0088;--primary-color-text:#ffffff;--font-family:Lato, Helvetica, sans-serif;--surface-0:#0e1315;--surface-50:#262b2c;--surface-100:#3e4244;--surface-200:#565a5b;--surface-300:#6e7173;--surface-400:#87898a;--surface-500:#9fa1a1;--surface-600:#b7b8b9;--surface-700:#cfd0d0;--surface-800:#e7e7e8;--surface-900:#ffffff;--gray-50:#e7e7e8;--gray-100:#cfd0d0;--gray-200:#b7b8b9;--gray-300:#9fa1a1;--gray-400:#87898a;--gray-500:#6e7173;--gray-600:#565a5b;--gray-700:#3e4244;--gray-800:#262b2c;--gray-900:#0e1315;--content-padding:1rem;--inline-spacing:0.5rem;--border-radius:6px;--surface-ground:#0e1315;--surface-section:#0e1315;--surface-card:#161d21;--surface-overlay:#161d21;--surface-border:#263238;--surface-hover:rgba($primaryColor, .08);--maskbg:rgba(0, 0, 0, 0.4);--focus-ring:0 0 0 1px #3f0088;--highlight-bg:#241f31;--highlight-text-color:#b09ce5;color-scheme:dark}*{box-sizing:border-box}:root{--blue-50:#f6fbfd;--blue-100:#d6eaf5;--blue-200:#b5d9ed;--blue-300:#95c8e4;--blue-400:#74b7dc;--blue-500:#54a6d4;--blue-600:#478db4;--blue-700:#3b7494;--blue-800:#2e5b75;--blue-900:#224255;--green-50:#f9fbf4;--green-100:#e3eccc;--green-200:#cddca4;--green-300:#b7cd7c;--green-400:#a1bd54;--green-500:#8bae2c;--green-600:#769425;--green-700:#617a1f;--green-800:#4c6018;--green-900:#384612;--yellow-50:#fffdf4;--yellow-100:#fff4cc;--yellow-200:#ffeba3;--yellow-300:#ffe27b;--yellow-400:#ffd952;--yellow-500:#ffd02a;--yellow-600:#d9b124;--yellow-700:#b3921d;--yellow-800:#8c7217;--yellow-900:#665311;--cyan-50:#f5fafc;--cyan-100:#cfe9f3;--cyan-200:#a8d8e9;--cyan-300:#82c7df;--cyan-400:#5bb5d6;--cyan-500:#35a4cc;--cyan-600:#2d8bad;--cyan-700:#25738f;--cyan-800:#1d5a70;--cyan-900:#154252;--pink-50:#fdf6f8;--pink-100:#f5d6dd;--pink-200:#edb5c2;--pink-300:#e495a8;--pink-400:#dc748d;--pink-500:#d45472;--pink-600:#b44761;--pink-700:#943b50;--pink-800:#752e3f;--pink-900:#55222e;--indigo-50:#f6f8fd;--indigo-100:#d6ddf5;--indigo-200:#b5c2ed;--indigo-300:#95a8e4;--indigo-400:#748ddc;--indigo-500:#5472d4;--indigo-600:#4761b4;--indigo-700:#3b5094;--indigo-800:#2e3f75;--indigo-900:#222e55;--teal-50:#f5fcfa;--teal-100:#d1f0e8;--teal-200:#ace3d6;--teal-300:#88d7c4;--teal-400:#63cbb2;--teal-500:#3fbfa0;--teal-600:#36a288;--teal-700:#2c8670;--teal-800:#236958;--teal-900:#194c40;--orange-50:#fffaf4;--orange-100:#ffe5cc;--orange-200:#ffd0a3;--orange-300:#ffbb7b;--orange-400:#ffa752;--orange-500:#ff922a;--orange-600:#d97c24;--orange-700:#b3661d;--orange-800:#8c5017;--orange-900:#663a11;--bluegray-50:#f9fafb;--bluegray-100:#e1e5ea;--bluegray-200:#c9d0d9;--bluegray-300:#b1bbc8;--bluegray-400:#99a6b7;--bluegray-500:#8191a6;--bluegray-600:#6e7b8d;--bluegray-700:#5a6674;--bluegray-800:#47505b;--bluegray-900:#343a42;--purple-50:#f8f6fd;--purple-100:#ded6f5;--purple-200:#c4b5ed;--purple-300:#aa95e4;--purple-400:#9074dc;--purple-500:#7654d4;--purple-600:#6447b4;--purple-700:#533b94;--purple-800:#412e75;--purple-900:#2f2255;--red-50:#fff7f6;--red-100:#ffd8d2;--red-200:#ffb9af;--red-300:#ff9b8b;--red-400:#ff7c68;--red-500:#ff5d44;--red-600:#d94f3a;--red-700:#b34130;--red-800:#8c3325;--red-900:#66251b;--primary-50:#f5f2f9;--primary-100:#d1c2e2;--primary-200:#ac91cc;--primary-300:#8861b5;--primary-400:#63309f;--primary-500:#3f0088;--primary-600:#360074;--primary-700:#2c005f;--primary-800:#23004b;--primary-900:#190036}</style><link id="theme-link" rel="stylesheet" type="text/css" href="assets/layout/styles/theme/theme_viva_purple.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/layout/styles/theme/theme_viva_purple.css"></noscript>
+  <link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+ <style>.m-0{margin:0rem!important}*{box-sizing:border-box}html{height:100%;font-size:14px}body{font-weight:400;padding:0;margin:0;min-height:100%;background:var(--surface-ground);color:var(--text-color);font-family:var(--font-family);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}</style><link rel="stylesheet" href="styles.afc2a1a09da31db8.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.afc2a1a09da31db8.css"></noscript></head>
+
+ <body class="m-0">
+  <app-root>
+   <div class="layout-preloader-container">
+    <div class="layout-preloader">
+     <span></span>
+    </div>
+   </div>
+  </app-root>
+  <!-- Biblioteca Web3Modal -->
+  <script src="https://unpkg.com/@web3modal/ethereum@1.10.0/dist/web3modal.min.js"></script>
+
+  <!-- Biblioteca para interactuar con Ethereum -->
+  <script src="https://unpkg.com/ethers@5.5.3/dist/ethers.min.js"></script>
+
+  <!-- Biblioteca de Ethereum Provider para Web3Modal -->
+  <script src="https://unpkg.com/@web3modal/html@1.10.0/dist/provider.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script type="module">
+   import {
+    EthereumClient,
+    w3mConnectors,
+    w3mProvider,
+    WagmiCore,
+    WagmiCoreChains,
+    WagmiCoreConnectors,
+   } from 'https://unpkg.com/@web3modal/ethereum';
+
+   import { Web3Modal } from 'https://unpkg.com/@web3modal/html';
+
+   // Equivalent to importing from @wagmi/core
+   const { configureChains, createConfig } = WagmiCore;
+
+   // Equivalent to importing from @wagmi/core/chains
+   const { mainnet, polygon, avalanche, arbitrum } = WagmiCoreChains;
+
+   // Equivalent to importing from @wagmi/core/providers
+   const { CoinbaseWalletConnector } = WagmiCoreConnectors;
+  </script>
+ <script src="runtime.21295f3a6093062b.js" type="module"></script><script src="polyfills.e7fb06fe1743a6c9.js" type="module"></script><script src="main.1328d84917e459db.js" type="module"></script>
+
+</body></html>
