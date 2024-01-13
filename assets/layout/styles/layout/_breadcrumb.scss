@@ -1,4 +1,6 @@
 .layout-breadcrumb {
+    margin-bottom: 2rem;
+
     ol {
         display: flex;
         align-items: center;
@@ -8,14 +10,9 @@
         gap: 1rem;
         flex-wrap: wrap;
         color: var(--text-color-secondary);
-
-        li {
-            font-weight: 600;
+        
+        a {
+            color: var(--text-color-secondary);
         }
     }
-}
-
-.content-breadcrumb {
-    margin-bottom: 2rem;
-    padding: 0 .5rem;
 }

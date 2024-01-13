@@ -1,13 +1,12 @@
-$primaryColor: #6ee7b7 !default;
-$primaryLightColor: rgba(110, 231, 183, .5) !default;
-$primaryDarkColor: scale-color($primaryColor, $lightness: -5%) !default;
-$primaryDarkerColor: scale-color($primaryColor, $lightness: -10%) !default;
-$primaryTextColor: #1c2127 !default;
-$primary500:#10b981 !default;
+$primaryColor: #44D4A9;
+$primaryLightColor: #b4eedd !default;
+$primaryDarkColor: #3dbf98 !default;
+$primaryDarkerColor: #36aa87 !default;
+$primaryTextColor: #162a41;
 
-$highlightBg:rgba(110, 231, 183, .16) !default;
-$highlightTextColor: rgba(255,255,255,.87) !default;
+$highlightBg: rgba($primaryColor,0.15);
+$highlightTextColor: $primaryLightColor;
 
 @import '../_variables';
-@import '../../designer/_components';
+@import '../../theme-base/_components';
 @import '../_extensions';
