@@ -30,17 +30,17 @@
 
   .topbar-menubutton {
     position: relative;
-    width: 3rem;
-    height: 3rem;
+    width: 7.8rem !important;
+    height: 5.2rem !important;
     margin-left: 3rem;
     border-radius: var(--border-radius);
     flex-shrink: 0;
 
     span {
-      width: 2rem;
-      height: 4px;
+      // width: 6rem;
+      // height: 6rem;
       display: block;
-      position: absolute;
+      // position: absolute;
       top: 18px;
       left: 7px;
       border-radius: 7px;

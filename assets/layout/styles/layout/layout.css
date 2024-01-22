@@ -536,7 +536,7 @@ body a {
   }
 }
 .layout-topbar {
- /* height: 5rem;*/
+  /* height: 5rem;*/
   padding: 0 2rem 0 1rem;
   position: fixed;
   left: 0;
@@ -927,12 +927,12 @@ app-footer {
 
   .layout-content-wrapper {
     margin-left: 0;
-   /* padding-top: 9rem;*/
-    height: 100% ;
+    /* padding-top: 9rem;*/
+    height: 100%;
   }
   .layout-content-wrapper .layout-content {
     border-top-right-radius: 30px;
-    height: 100vh ;
+    height: 100vh;
   }
 
   .layout-sidebar {
@@ -951,7 +951,7 @@ app-footer {
     .layout-topbar
     .topbar-menubutton
     span {
-    width: 0;
+    /* width: 0; */
   }
   .layout-container.layout-mobile-active
     .layout-topbar
