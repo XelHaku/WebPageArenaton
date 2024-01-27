@@ -13,3 +13,26 @@
 .fs20 {
   font-size: 2rem;
 }
+//
+
+.fsv20 {
+  font-size: min(max(12px, 5.5vw), 2vw);
+}
+
+// Define the mixin with a parameter
+@mixin responsiveFontSize($delta) {
+  font-size: min(max($delta, ($delta + 3.5) vw), #{$delta * 1px});
+}
+
+// Use the mixin with different values for delta
+.fsv20 {
+  @include responsiveFontSize(2);
+}
+.fsv25 {
+  // @include responsiveFontSize(12.5);
+  @include responsiveFontSize(2.5);
+}
+
+.fsv30 {
+  @include responsiveFontSize(3);
+}
