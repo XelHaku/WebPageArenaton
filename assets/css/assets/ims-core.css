@@ -1917,7 +1917,7 @@ h4.stake {
   width: 65px;
   height: 5px;
   margin: 20px 0 0;
-  background: var(--tg-theme-primary);
+  background: #d3211e;
 }
 .section__title.center::after {
   margin: 20px auto 0;
@@ -2858,6 +2858,13 @@ h4.stake {
 .slider__btn {
   margin: 33px 0 0;
 }
+
+@media (max-width: 768px) {
+  .slider__btn {
+    text-align: center;
+  }
+}
+
 .slider__btn .tg-btn-1 {
   padding: 15px 49px;
 }
@@ -3489,7 +3496,7 @@ h4.stake {
   right: 0;
   width: 100%;
   height: calc(100% + 15px);
-  background: var(--tg-theme-primary);
+  background: #d3211e;
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
   -ms-transform: rotate(5deg);

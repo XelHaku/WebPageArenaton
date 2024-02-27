@@ -285,9 +285,9 @@ html:root {
 }
  
 }
-@media (max-width: 767.98px) {
+/*@media (max-width: 767.98px) {
  
-}
+}*/
 
 .dotted{background-image: url(../img/tex.png);
     background-position: top center;
