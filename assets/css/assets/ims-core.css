@@ -115,7 +115,7 @@ img,
 
 a,
 button {
-  color: var(--tg-theme-primary);
+  color: white;
   outline: none;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out 0s;
