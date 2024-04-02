@@ -5126,7 +5126,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-overlaypanel {
-  background: #293b51;
+  background: black;
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #3e4f62;
   border-radius: 6px;

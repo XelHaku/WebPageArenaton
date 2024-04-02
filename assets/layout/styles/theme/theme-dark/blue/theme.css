@@ -28,8 +28,8 @@
   --content-padding:1.25rem;
   --inline-spacing:0.5rem;
   --border-radius:6px;
-  --surface-ground:#162a41;
-  --surface-section:#162a41;
+  --surface-ground:#0c429c;
+  --surface-section:#0c429d;
   --surface-card:#293B51;
   --surface-overlay:#293B51;
   --surface-border:#3e4f62;
@@ -4590,23 +4590,30 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tooltip .p-tooltip-text {
-  background: #3e4f62;
+  background-color: #D8D8D817 !important;
   color: rgba(255, 255, 255, 0.87);
   padding: 0.75rem 0.75rem;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 6px;
+
+  -webkit-backdrop-filter: blur(17px);
+    backdrop-filter: blur(17px);
+    border: 1px solid rgb(255 255 255 / 10%);
+    box-shadow: -2px 3px 90px -20px rgb(0 0 0 / 25%);
+
+
 }
 .p-tooltip.p-tooltip-right .p-tooltip-arrow {
-  border-right-color: #3e4f62;
+  border-right-color: #D8D8D817;
 }
 .p-tooltip.p-tooltip-left .p-tooltip-arrow {
-  border-left-color: #3e4f62;
+  border-left-color: #D8D8D817;
 }
 .p-tooltip.p-tooltip-top .p-tooltip-arrow {
-  border-top-color: #3e4f62;
+  border-top-color: #D8D8D817;
 }
 .p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
-  border-bottom-color: #3e4f62;
+  border-bottom-color: #D8D8D817;
 }
 
 .p-fileupload .p-fileupload-buttonbar {
